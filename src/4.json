@@ -1,0 +1,64 @@
+[
+  {
+    "id": 0,
+    "parentId": -1,
+    "ins_id": "",
+    "tag": "div",
+    "data": {
+      "$style": {
+        "width": "100%"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "parentId": 0,
+    "ins_id": "baeabfeaaf32415bae6edcb94988fe6f",
+    "tag": "FormItem",
+    "$complexInfo": {
+      "edit_page_uuid": "sal20000_org_key211020eaen7u6dqw"
+    },
+    "data": {
+      "label": "标签文字",
+      "$exports": [
+        {
+          "attrKey": "label",
+          "alias": "",
+          "sortIdx": -1
+        },
+        {
+          "attrKey": "prop",
+          "alias": "",
+          "sortIdx": -1
+        },
+        {
+          "attrKey": "required",
+          "alias": "",
+          "sortIdx": -1
+        }
+      ],
+      "$exportState": true
+    }
+  },
+  {
+    "id":2,
+    "parentId":1,
+    "tag":"GuiLayout",
+    "data":{
+        "$op": {
+          "delete": 0
+        },
+        "$layout":true,
+        "$style":{},
+        "$exports":[
+            {
+                "eventKey":"click",
+                "sortIdx":-1
+            }
+        ],
+        "$exportState":true
+    },
+    "group":true,
+    "ins_id":"b7198e4badcd48f49accf34a4a1cc80b"
+  }
+]
