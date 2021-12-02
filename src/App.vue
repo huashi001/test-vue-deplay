@@ -16,6 +16,7 @@ export default {
   },
   methods: {
     test() {
+      this.b++
      // alert(this.b++)
     }
   }
