@@ -1,6 +1,6 @@
 <template>
   <div id="app" @click='test'>
-   测试deplay
+   测试deplay{{b}}
   </div>
 </template>
 
