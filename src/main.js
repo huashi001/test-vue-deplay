@@ -1,12 +1,14 @@
 import Vue from 'vue'
+import VueRouter from 'vue-router'
+import router from './router'
+
 import App from './App.vue'
 
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
 // use
 Vue.use(mavonEditor)
-
-// import { default as vue2 } from 'vue'
+Vue.use(VueRouter)
 
 Vue.config.productionTip = false
 Vue.component('my-a', {
@@ -28,6 +30,7 @@ console.log(Vue.options)
 new Vue({
   // template: '<a>aaa</a>',
   render: h => h(App),
+  router,
   el: '#app',
 })
 

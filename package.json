@@ -11,7 +11,8 @@
     "@idg/mavon-editor": "^0.3.3",
     "core-js": "^3.6.5",
     "mavon-editor": "^2.10.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
