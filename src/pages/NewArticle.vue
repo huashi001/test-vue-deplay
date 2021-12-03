@@ -1,6 +1,6 @@
 <template>
   <div>
-    <mavon-editor v-model="value" :subfield='false' :toolbars-flag="false"/>
+    <mavon-editor v-model="value" :subfield='false'/>
     <button @click='save'>保存</button>
   </div>
 </template>
