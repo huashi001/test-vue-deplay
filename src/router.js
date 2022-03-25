@@ -1,24 +1,30 @@
 import VueRouter from 'vue-router'
-import Home from './pages/Home.vue'
-import NewArticle from './pages/NewArticle.vue'
-import Preview from './pages/Preview.vue'
+// import Home from './pages/Home.vue'
+// import NewArticle from './pages/NewArticle.vue'
+// import Preview from './pages/Preview.vue'
+import ParseCsv from './pages/parse-csv.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'ParseCsv',
+    component: ParseCsv
   },
-  {
-    path: '/new/:id',
-    name: 'NewArticle',
-    component: NewArticle
-  },
-  {
-    path: '/preview/:id',
-    name: 'preview',
-    component: Preview
-  },
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
+  // {
+  //   path: '/new/:id',
+  //   name: 'NewArticle',
+  //   component: NewArticle
+  // },
+  // {
+  //   path: '/preview/:id',
+  //   name: 'preview',
+  //   component: Preview
+  // },
   // {
   //   path: '/about',
   //   name: 'About',

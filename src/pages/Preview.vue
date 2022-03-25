@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='aa'>
     <mavon-editor v-model="value" :subfield='false' :toolbars-flag="false" defaultOpen='preview'/>
   </div>
 </template>
@@ -19,5 +19,7 @@ export default {
 }
 </script>
 <style scoped>
-
+.aa{
+  color: grren;
+}
 </style>

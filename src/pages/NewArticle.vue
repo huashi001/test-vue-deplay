@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <mavon-editor v-model="value" :subfield='false'/>
+  <div class='a'>
+    <mavon-editor v-model="value" :subfield='false' @imgAdd='imgAdd' ref='md'/>
     <button @click='save'>保存</button>
   </div>
 </template>
@@ -37,10 +37,16 @@ export default {
      
       localStorage.setItem('items', JSON.stringify(items));
       this.$router.push('/')
+    },
+    imgAdd(name, file) {
+      console.log(name, file)
+      this.$refs.md.$img2Url(name, 'https://www.baidu.com/img/flexible/logo/pc/result.png')
     }
   }
 }
 </script>
 <style scoped>
-
+.a {
+  color: red;
+}
 </style>
