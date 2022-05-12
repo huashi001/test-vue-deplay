@@ -26,6 +26,8 @@ export default {
     }
   },
   created() {
+    localStorage.setItem('a', 'hahah')
+    alert(localStorage.getItem('a'))
     const re = {
       type: 'script',
       url: 'https://pkg.oneitfarm.com/xlsx/0.17.5/xlsx.full.min.js' // 'https://unpkg.com/xlsx/dist/xlsx.full.min.js',
