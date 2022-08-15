@@ -3,12 +3,24 @@ import VueRouter from 'vue-router'
 // import NewArticle from './pages/NewArticle.vue'
 // import Preview from './pages/Preview.vue'
 import ParseCsv from './pages/parse-csv.vue'
+import Test from './pages/test'
+import Ppw from './pages/Ppw'
 
 const routes = [
   {
     path: '/',
     name: 'ParseCsv',
     component: ParseCsv
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: Test
+  },
+  {
+    path: '/ppw',
+    name: 'ppw',
+    component: Ppw
   },
   // {
   //   path: '/',
